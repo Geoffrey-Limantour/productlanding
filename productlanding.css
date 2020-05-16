@@ -1,0 +1,176 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(238, 237, 237);
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited, a:link, a:hover, a:focus, a:active {
+    color: black;
+}
+
+button {
+    background-color: rgb(243, 105, 162);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    
+}
+
+#header {
+    background-color: rgb(238, 237, 237);
+    align-items: center;
+    display: flex;
+    max-height: 80px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#brand-title {
+    font-family: 'Pacifico', sans-serif ;
+    font-size: 40px;
+}
+
+#header-img {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+#brand {
+    display: flex;
+    align-items: center;
+}
+
+header .nav-liste {
+    display: flex;
+}
+
+header .nav-link {
+    margin: 10px 80px 10px 80px;
+}
+
+#core {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.corediv {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.coreimg {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: 110px;
+}
+
+.coretext {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.coretext h1 {
+    margin-bottom: 0px;
+}
+
+.coretext p {
+    margin-top: 0px;
+}
+
+.fas {
+    font-size: 60px;
+    color: rgb(243, 105, 162);
+    margin-right: 30px;
+}
+
+#video {
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 560px;
+    display: block;
+}
+
+#price {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 1200px;
+    
+}
+
+#price1 {
+    background-color: red;
+    flex: 1;
+    margin: 20px 20px 20px 20px;
+    border: solid black;
+}
+
+#price2 {
+    background-color: blue;
+    flex: 1;
+    margin: 20px 20px 20px 20px;
+    border: solid black;
+}
+
+#price3 {
+    background-color: yellow;
+    flex: 1;
+    margin: 20px 20px 20px 20px;
+    border: solid black;
+}
+
+.product-title {
+    display: flex;
+    border: dashed grey;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    background-color: indianred;
+}
+
+.product-price {
+    display: flex;
+    flex-direction: column;
+    border: dashed green;
+}
+
+#price button {
+    align-items: flex-end;
+}
+
+#newsletter {
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+#newsletter h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#newsletter button {
+    margin-top: 20px;
+}
+
+.form-box {
+    margin-top: 30px;
+}
