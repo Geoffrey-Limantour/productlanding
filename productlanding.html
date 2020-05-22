@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=560, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="productlanding.css">
 <script src="https://kit.fontawesome.com/8739e488c2.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -16,9 +18,9 @@
             </div>
             <nav id="nav-bar">
                 <ul class="nav-liste" style="list-style-type: none">
-                    <li class="nav-link"><a href="#core">What is it?</a></li>
-                    <li class="nav-link"><a href="#video">How it works</a></li>
-                    <li class="nav-link"><a href="#price">Pricing</a></li>
+                    <li class="nav-link"><a class="anchor" href="#core">What is it?</a></li>
+                    <li class="nav-link"><a class="anchor" href="#video">How it works</a></li>
+                    <li class="nav-link"><a class="anchor" href="#price">Pricing</a></li>
                 </ul>
             </nav>
         </header>
@@ -54,8 +56,8 @@
                 </div>
             </div>
 
-            <div id="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/wgLo6cbfW94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wgLo6cbfW94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
             </div>
 
             <div id="price">
@@ -113,8 +115,10 @@
                 <h2>Handcrafted, home-made masterpieces</h2>
                 <h3>Want to know more about it?</h3>
                 <h3>Register to our newslettte now:</h3>
-                <input type="email" class="form-box" placeholder="Enter your Email..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="" id="email"><br>
-                <button type="submit">Subscribe</button>
+                <form action="" method="GET" id="form">
+                    <input type="email" class="form-box" placeholder="Enter your Email..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="" id="email"><br>
+                    <button type="submit">Subscribe</button>
+                </form> 
             </div>
         </main>
            
