@@ -16,9 +16,7 @@ a:visited, a:link, a:hover, a:focus, a:active {
 button {
     background-color: rgb(243, 105, 162);
     border: none;
-    color: white;
-    padding: 10px 30px;
-    
+    color: white;    
 }
 
 #header {
@@ -109,51 +107,64 @@ header .nav-link {
 
 #price {
     display: flex;
-    justify-content: center;
-    text-align: center;
     margin: auto;
     max-width: 1200px;
-    
+    height: 470px;
 }
 
 #price1 {
-    background-color: red;
     flex: 1;
+    flex-direction: column;
     margin: 20px 20px 20px 20px;
-    border: solid black;
+    border: thin solid black;
 }
 
 #price2 {
-    background-color: blue;
     flex: 1;
     margin: 20px 20px 20px 20px;
-    border: solid black;
+    border: thin solid black;
 }
 
 #price3 {
-    background-color: yellow;
     flex: 1;
     margin: 20px 20px 20px 20px;
-    border: solid black;
+    border: thin solid black;
+}
+
+#price h1 {
+    font-size: 25px;
+    font-weight: normal;
 }
 
 .product-title {
     display: flex;
-    border: dashed grey;
-    height: 90px;
+    min-height: 70px;
     align-items: center;
+    text-align: center;
     justify-content: center;
-    background-color: indianred;
+    background-color: lightgrey;
 }
 
 .product-price {
     display: flex;
     flex-direction: column;
-    border: dashed green;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.product-button {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-self: flex-end;
 }
 
 #price button {
-    align-items: flex-end;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    justify-content: center;
+
 }
 
 #newsletter {
@@ -169,8 +180,47 @@ header .nav-link {
 
 #newsletter button {
     margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 10px 20px 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .form-box {
     margin-top: 30px;
+    height: 25px;
+    width: 180px;
+}
+
+#newsletter ::placeholder {
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+#email {
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: lightgrey;
+}
+
+.nav-liste-footer {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.nav-link {
+    padding-left: 10px;
+}
+
+footer p {
+    text-align: right;
 }
