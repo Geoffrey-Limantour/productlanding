@@ -198,18 +198,21 @@ header .nav-link {
     margin-top: 0px;
 }
 
-#newsletter button {
+#submit {
     margin-top: 20px;
     margin-bottom: 60px;
     padding: 10px 20px 10px 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    background-color: rgb(243, 105, 162);
+    color: white;
+    border: none;
 }
 
 .form-box {
     margin-top: 30px;
     height: 25px;
-    width: 180px;
+    width: 280px;
 }
 
 #newsletter ::placeholder {
